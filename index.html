@@ -27,13 +27,13 @@
 			</ul>
 		</nav>
 		<ul class="contacts-list list">
-			<li class="mail"> <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-			<li class="telephone"><a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+			<li><a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+			<li><a class="link contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
 		</ul>
 	</header>
 
 	<!-- main block -->
-	<main class="main-studio">
+	<main>
 		<!-- hero -->
 		<section class="hero">
 			<h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
@@ -43,23 +43,24 @@
 		<!-- Advantages -->
 		<section class="advantages">
 			<!-- h2 won't to show here -->
-			<h2>Переваги нашої компанії</h2>
+			<h2>Переваги компанії</h2>
 			<ul class="advantages-list list">
 				<li class="advantages-link">
-					<h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-					<p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+					<h3 class="advantage-point">УВАГА ДО ДЕТАЛЕЙ</h3>
+					<p class="advantage-desc">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+					</p>
 				</li>
 				<li class="advantages-link">
-					<h3>ПУНКТУАЛЬНІСТЬ</h3>
-					<p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+					<h3 class="advantage-point">ПУНКТУАЛЬНІСТЬ</h3>
+					<p class="advantage-desc">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
 				</li>
 				<li class="advantages-link">
-					<h3>ПЛАНУВАННЯ</h3>
-					<p>Так само консультація з широким активом значною мірою зумовлює.</p>
+					<h3 class="advantage-point">ПЛАНУВАННЯ</h3>
+					<p class="advantage-desc">Так само консультація з широким активом значною мірою зумовлює.</p>
 				</li>
 				<li class="advantages-link">
-					<h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-					<p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+					<h3 class="advantage-point">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+					<p class="advantage-desc">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
 				</li>
 			</ul>
 		</section>
@@ -68,9 +69,13 @@
 		<section>
 			<h2 class="poster">Чим ми займаємося</h2>
 			<ul class="work-list list">
-				<li><img src="./images/work1.jpg" width="370" alt="Програміст пише код додатку"></li>
-				<li><img src="./images/work2.jpg" width="370" alt="Дизайнер розробляє макет додатку"></li>
-				<li><img src="./images/work3.jpg" width="370" alt="Дизайнер розробляє кольорову схему додатку"></li>
+				<li><img src="./images/studio-images/codding.jpg" width="370" alt="Програміст пише код додатку">
+				</li>
+				<li><img src="./images/studio-images/testing.jpg" width="370" alt="Тестувальник перевіряє роботу додатку">
+				</li>
+				<li><img src="./images/studio-images/dessigning.jpg" width="370"
+						alt="Дизайнер розробляє кольорову схему додатку">
+				</li>
 			</ul>
 		</section>
 
@@ -80,7 +85,7 @@
 			<ul class="team-list list">
 				<li class="team-link">
 					<a href="" class="team-person">
-						<img src="./images/person1.jpg" width="270" alt="Член команди Ігор Дем'яненко">
+						<img src="./images/studio-images/person1.jpg" width="270" alt="Член команди Ігор Дем'яненко">
 						<h3 class="person-name">Ігор Дем'яненко</h3>
 						<p class="person-profession">
 							Product Designer
@@ -89,7 +94,7 @@
 				</li>
 				<li class="team-link">
 					<a href="" class="team-person">
-						<img src="./images/person2.jpg" width="270" alt="Член команди Ольга Рєпіна">
+						<img src="./images/studio-images/person2.jpg" width="270" alt="Член команди Ольга Рєпіна">
 						<h3 class="person-name">Ольга Рєпіна</h3>
 						<p>
 							Frontend Developer
@@ -98,7 +103,7 @@
 				</li>
 				<li class="team-link">
 					<a href="" class="team-person">
-						<img src="./images/person3.jpg" width="270" alt="Член команди Микола Тарасов">
+						<img src="./images/studio-images/person3.jpg" width="270" alt="Член команди Микола Тарасов">
 						<h3 class="person-name">Микола Тарасов</h3>
 						<p>
 							Marketing
@@ -107,7 +112,7 @@
 				</li>
 				<li class="team-link">
 					<a href="" class="team-person">
-						<img src="./images/person4.jpg" width="270" alt="Член команди Михайло Єрмаков">
+						<img src="./images/studio-images/person4.jpg" width="270" alt="Член команди Михайло Єрмаков">
 						<h3 class="person-name">Михайло Єрмаков</h3>
 						<p>
 							UI Designer
@@ -120,8 +125,6 @@
 
 	<!-- footer block -->
 	<footer>
-		<!-- h2 won't to show here -->
-		<h2>Контакти компанії</h2>
 		<a class="logo" href="./index.html"><span class="blue-part">Web</span><span class="white-part">Studio</span></a>
 		<address class="address">м. Київ, пр-т Лесі Українки, 26</address>
 		<address class="address">
