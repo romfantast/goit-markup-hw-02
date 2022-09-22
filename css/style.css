@@ -68,11 +68,11 @@ body {
 footer {
   background-color: var(--background-color-dark);
 }
-.temp-title {
-  color: var(--gray-color);
-}
 .white-part {
   color: var(--white-color);
+}
+.address-list {
+  list-style: none;
 }
 .footer-map {
   color: var(--white-color);
@@ -87,8 +87,10 @@ footer {
   color: var(--accent-color);
 }
 .footer-contact {
+  font-weight: 400;
   color: var(--transparent-color);
   letter-spacing: 0.03em;
+  line-height: 1.71;
   font-style: normal;
 }
 
